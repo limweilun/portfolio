@@ -173,7 +173,7 @@ export function AboutSection() {
             className="grid md:grid-cols-2 lg:grid-cols-4 gap-6"
            
           >
-            {highlights.map((highlight, index) => (
+            {highlights.map((highlight) => (
               <Card
                 key={highlight.title}
                 className="group hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border-0 shadow-lg"

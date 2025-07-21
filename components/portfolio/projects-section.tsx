@@ -84,14 +84,14 @@ export function ProjectsSection() {
       featured: false,
     },
     {
-      title: "Portfolio Website",
+      title: "Financials Visualizer",
       description:
-        "A modern, responsive portfolio website showcasing projects and skills with smooth animations and dark mode support. Built with Next.js and Tailwind CSS.",
-      image: "/api/placeholder/600/400", // Keep placeholder until video is available
-      technologies: ["Next.js", "React", "TypeScript", "Tailwind CSS", "ShadCN/UI", "Lucide React"],
-      liveUrl: "#",
-      videoUrl: undefined, // Will be added soon
-      githubUrl: "https://github.com/limweilun/portfolio",
+        "A comprehensive financial planning tool featuring interactive debt payoff calculators, asset portfolio tracking, and visual timeline projections. Implements debt avalanche and snowball strategies with privacy-first local calculations and comprehensive PDF reporting.",
+      image: "https://img.youtube.com/vi/yGia_uA7K5o/hqdefault.jpg",
+      technologies: ["React", "TypeScript", "D3.js", "Chart.js", "Tailwind CSS", "PDF Generation", "Local Storage"],
+      liveUrl: "https://finvisualizer.com",
+      videoUrl: "https://youtu.be/yGia_uA7K5o",
+      githubUrl: null, // Closed source
       featured: false,
     },
   ];
